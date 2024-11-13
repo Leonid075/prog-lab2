@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class Confusion extends StatusMove {
+public final class Confusion extends StatusMove {
     public Confusion() {
         super(Type.PSYCHIC, 50, 100);
     }

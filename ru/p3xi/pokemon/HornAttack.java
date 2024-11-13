@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class HornAttack extends PhysicalMove{
+public final class HornAttack extends PhysicalMove{
     public HornAttack() {
         super(Type.NORMAL, 65, 100);
     }

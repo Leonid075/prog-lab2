@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class Comfey extends Pokemon {
+public final class Comfey extends Pokemon {
     public Comfey() {
         super("Comfey", 1);
         this.setStats(51, 52, 90, 82, 110, 100);

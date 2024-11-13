@@ -1,7 +1,7 @@
 import ru.p3xi.pokemon.*;
 import ru.ifmo.se.pokemon.*;
 
-public class Main {
+public final class Main {
     public static void main(String[] args) {
         Battle battle = new Battle();
         battle.addAlly(new Comfey());

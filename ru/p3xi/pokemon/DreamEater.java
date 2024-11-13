@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class DreamEater extends SpecialMove {
+public final class DreamEater extends SpecialMove {
     public DreamEater() {
         super(Type.PSYCHIC, 100, 100);
     }

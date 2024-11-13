@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class Bulldoze extends PhysicalMove {
+public final class Bulldoze extends PhysicalMove {
     public Bulldoze() {
         super(Type.GROUND, 60, 100);
     }

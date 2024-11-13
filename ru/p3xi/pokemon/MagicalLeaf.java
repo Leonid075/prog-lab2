@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class MagicalLeaf extends SpecialMove {
+public class final MagicalLeaf extends SpecialMove {
     public MagicalLeaf() {
         super(Type.GRASS, 60, Double.POSITIVE_INFINITY);
     }

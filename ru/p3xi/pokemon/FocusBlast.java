@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class FocusBlast extends SpecialMove  {
+public final class FocusBlast extends SpecialMove  {
     public FocusBlast() {
         super(Type.FIGHTING, 120, 70);
     }

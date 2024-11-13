@@ -1,7 +1,7 @@
 package ru.p3xi.pokemon;
 import ru.ifmo.se.pokemon.*;
 
-public class PoisonSting extends PhysicalMove{
+public final class PoisonSting extends PhysicalMove{
     public PoisonSting() {
         super(Type.POISON, 15, 100);
     }
