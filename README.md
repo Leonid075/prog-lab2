@@ -4,8 +4,8 @@
 
 ```javac -cp ".:./Pokemon.jar" -d build Main.java```
 
+```jar -cfm main.jar manifest.mf```
+
 ## Run
 
-```cd build```
-
-```java -cp ".:../Pokemon.jar" Main```
+```java -jar main.jar```
