@@ -1,10 +1,10 @@
 # prog-lab2
 
-##Build
+## Build
 
 ```javac -cp ".:./Pokemon.jar" -d build Main.java```
 
-##Run
+## Run
 
 ```cd build```
 
